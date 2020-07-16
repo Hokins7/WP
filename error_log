@@ -1,0 +1,38 @@
+[13-Jul-2020 10:15:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/anatoli3/public_html/wp-content/plugins/connect-polylang-elementor/modules/widgets/polylang-language-switcher.php on line 278
+[14-Jul-2020 07:36:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/anatoli3/public_html/wp-content/plugins/connect-polylang-elementor/modules/widgets/polylang-language-switcher.php on line 278
+[14-Jul-2020 07:36:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/anatoli3/public_html/wp-content/plugins/connect-polylang-elementor/modules/widgets/polylang-language-switcher.php on line 278
+[14-Jul-2020 07:42:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/anatoli3/public_html/wp-content/plugins/connect-polylang-elementor/modules/widgets/polylang-language-switcher.php on line 278
+[14-Jul-2020 08:13:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/anatoli3/public_html/wp-content/plugins/connect-polylang-elementor/modules/widgets/polylang-language-switcher.php on line 278
+[14-Jul-2020 08:17:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/anatoli3/public_html/wp-content/plugins/connect-polylang-elementor/modules/widgets/polylang-language-switcher.php on line 278
+[14-Jul-2020 08:17:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/anatoli3/public_html/wp-content/plugins/connect-polylang-elementor/modules/widgets/polylang-language-switcher.php on line 278
+[14-Jul-2020 08:41:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/anatoli3/public_html/wp-content/plugins/connect-polylang-elementor/modules/widgets/polylang-language-switcher.php on line 278
+[14-Jul-2020 08:41:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/anatoli3/public_html/wp-content/plugins/connect-polylang-elementor/modules/widgets/polylang-language-switcher.php on line 278
+[14-Jul-2020 08:41:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/anatoli3/public_html/wp-content/plugins/connect-polylang-elementor/modules/widgets/polylang-language-switcher.php on line 278
+[14-Jul-2020 09:04:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/anatoli3/public_html/wp-content/plugins/connect-polylang-elementor/modules/widgets/polylang-language-switcher.php on line 278
+[14-Jul-2020 09:13:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/anatoli3/public_html/wp-content/plugins/connect-polylang-elementor/modules/widgets/polylang-language-switcher.php on line 278
+[14-Jul-2020 09:13:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/anatoli3/public_html/wp-content/plugins/connect-polylang-elementor/modules/widgets/polylang-language-switcher.php on line 278
+[14-Jul-2020 09:26:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/anatoli3/public_html/wp-content/plugins/connect-polylang-elementor/modules/widgets/polylang-language-switcher.php on line 278
+[14-Jul-2020 09:57:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/anatoli3/public_html/wp-content/plugins/connect-polylang-elementor/modules/widgets/polylang-language-switcher.php on line 278
+[14-Jul-2020 12:06:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/anatoli3/public_html/wp-content/plugins/connect-polylang-elementor/modules/widgets/polylang-language-switcher.php on line 278
+[14-Jul-2020 12:22:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function to_array() on null in /home/anatoli3/public_html/wp-content/plugins/contact-form-7/includes/rest-api.php:374
+Stack trace:
+#0 [internal function]: {closure}(Object(WPCF7_FormTag))
+#1 /home/anatoli3/public_html/wp-content/plugins/contact-form-7/includes/rest-api.php(378): array_map(Object(Closure), Array)
+#2 /home/anatoli3/public_html/wp-content/plugins/contact-form-7/includes/rest-api.php(232): wpcf7_get_properties_for_api(Object(WPCF7_ContactForm))
+#3 /home/anatoli3/public_html/wp-includes/rest-api/class-wp-rest-server.php(1015): wpcf7_rest_update_contact_form(Object(WP_REST_Request))
+#4 /home/anatoli3/public_html/wp-includes/rest-api/class-wp-rest-server.php(342): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#5 /home/anatoli3/public_html/wp-includes/rest-api.php(312): WP_REST_Server->serve_request('/contact-form-7...')
+#6 /home/anatoli3/public_html/wp-includes/class-wp-hook.php(287): rest_api_loaded(Object(WP))
+#7 /home/anatoli3/public_html/wp-includes/class-wp- in /home/anatoli3/public_html/wp-content/plugins/contact-form-7/includes/rest-api.php on line 374
+[14-Jul-2020 12:23:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function to_array() on null in /home/anatoli3/public_html/wp-content/plugins/contact-form-7/includes/rest-api.php:374
+Stack trace:
+#0 [internal function]: {closure}(Object(WPCF7_FormTag))
+#1 /home/anatoli3/public_html/wp-content/plugins/contact-form-7/includes/rest-api.php(378): array_map(Object(Closure), Array)
+#2 /home/anatoli3/public_html/wp-content/plugins/contact-form-7/includes/rest-api.php(232): wpcf7_get_properties_for_api(Object(WPCF7_ContactForm))
+#3 /home/anatoli3/public_html/wp-includes/rest-api/class-wp-rest-server.php(1015): wpcf7_rest_update_contact_form(Object(WP_REST_Request))
+#4 /home/anatoli3/public_html/wp-includes/rest-api/class-wp-rest-server.php(342): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#5 /home/anatoli3/public_html/wp-includes/rest-api.php(312): WP_REST_Server->serve_request('/contact-form-7...')
+#6 /home/anatoli3/public_html/wp-includes/class-wp-hook.php(287): rest_api_loaded(Object(WP))
+#7 /home/anatoli3/public_html/wp-includes/class-wp- in /home/anatoli3/public_html/wp-content/plugins/contact-form-7/includes/rest-api.php on line 374
+[14-Jul-2020 12:56:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/anatoli3/public_html/wp-content/plugins/connect-polylang-elementor/modules/widgets/polylang-language-switcher.php on line 278
+[14-Jul-2020 12:56:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/anatoli3/public_html/wp-content/plugins/connect-polylang-elementor/modules/widgets/polylang-language-switcher.php on line 278
